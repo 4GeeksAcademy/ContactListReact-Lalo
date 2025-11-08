@@ -1,0 +1,30 @@
+h1{
+    color: rgb(49, 16, 1);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);;
+}
+
+img {
+    background:rgba(199, 161, 58, 0.753);
+    zoom: 40%;
+    border-radius: 80%;
+    border: 1px, solid, black;
+    margin: 5%;
+    margin-left: 20%;
+}
+
+.card {
+    background: linear-gradient(rgba(255, 196, 2, 0.267) 40%,rgb(113, 117, 70));
+}
+
+.card button{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+   
+}
+
+.card:hover button{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
